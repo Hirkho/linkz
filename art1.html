@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artwork 1 - Linkzz Art</title>
+<style>
+    body {
+        margin: 0;
+        background-color: #0b0b0b;
+        color: white;
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background: linear-gradient(to right, #020000, #161313);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    .logo {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #ff4da6;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 25px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: #ff4da6;
+    }
+    .artwork-container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .artwork-title {
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #ff4da6;
+    }
+    .artwork-details {
+        font-size: 0.95em;
+        color: #bbb;
+        margin-bottom: 20px;
+    }
+    video {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+        margin-bottom: 20px;
+    }
+    .description {
+        font-size: 1.1em;
+        color: #ddd;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #111;
+        font-size: 0.9em;
+        border-top: 1px solid #222;
+        margin-top: 40px;
+    }
+    footer a {
+        color: #ff4da6;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">Linkzz</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#commissions">Commissions</a>
+        <a href="index.html#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="artwork-container">
+    <h1 class="artwork-title">Artwork Title Here</h1>
+    <p class="artwork-details">Created: Aug 2025 • Medium: Digital Anime Art • Dimensions: 3000x4000px</p>
+    
+    <video controls>
+        <source src="artwork1-timelapse.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <p class="description">
+        This piece was inspired by pintrest. The timelapse above shows my full process, from sketching
+        to coloring and final detailing. I experimented with [techniques used] to bring more life into the character.
+    </p>
+</div>
+
+<footer>
+    © 2025 Linkzz Art — All Rights Reserved | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+</footer>
+
+</body>
+</html>
